@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://doingazure.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -104,6 +104,14 @@ const config = {
                 label: 'X / Twitter',
                 href: 'https://twitter.com/doingazure',
               },
+              {
+                label: 'LinkedIn (maybe?)',
+                href: 'https://twitter.com/doingazure',
+              },
+              {
+                label: 'Facebook (maybe?)',
+                href: 'https://twitter.com/doingazure',
+                },
             ],
           },
           {

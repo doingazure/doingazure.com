@@ -2,36 +2,39 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+const currentYear = new Date().getFullYear();
+
 const FeatureList = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+ {
+  title: 'Learn Azure by Doing Azure',
+  // Svg: require('@site/static/img/github-mark.svg').default,
+  Svg: require('@site/static/img/github-mark-white.svg').default,
+  description: (
+    <>
+    Doing Azure is intended to be a learning amplifier.
+    </>
+  ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+  title: 'Decisions over Options',
+  Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+  description: (
+    <>
+    There are so very many options in {currentYear} so we need to make some choices.
+    Asserting Azure as the cloud platform is itself is one such choice. There are many more.
+    Most decisions are explained.
+    </>
+  ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+  title: 'Powered by React',
+  Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+  description: (
+    <>
+    Extend or customize your website layout by reusing React. Docusaurus can
+    be extended while reusing the same header and footer.
+    </>
+  ),
   },
 ];
 
