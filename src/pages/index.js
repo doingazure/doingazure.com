@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Many people learn best by doing. Here we learn Azure by doing Azure.
           </Link>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title} Home`}
-      description="Learn Azure by doing Azure.<head />">
+      description="Learning Azure by doing Azure.<head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
