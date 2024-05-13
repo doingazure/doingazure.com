@@ -90,25 +90,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Social Media',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
               {
                 label: 'X / Twitter',
                 href: 'https://twitter.com/doingazure',
@@ -116,15 +107,32 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Explore',
             items: [
               {
-                label: 'Blog',
+                label: 'Blog (coming soon?)',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
+                label: 'Source code on GitHub',
                 href: 'https://github.com/doingazure/doingazure.com',
+              },
+            ],
+          },
+          {
+            title: 'Resources Elsewhere',
+            items: [
+              {
+                label: 'Boston Azure on YouTube',
+                href: 'https://www.youtube.com/bostonazure',
+              },
+              {
+                label: 'Boston Azure Meetups',
+                href: 'https://meetup.com/bostonazure',
+              },
+              {
+                label: 'Microsoft Learn for Azure',
+                href: 'https://learn.microsoft.com/en-us/azure/',
               },
             ],
           },
