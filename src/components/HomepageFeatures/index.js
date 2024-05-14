@@ -11,28 +11,33 @@ const FeatureList = [
   Svg: require('@site/static/img/github-mark-white.svg').default,
   description: (
     <>
-    Doing Azure is intended to be a learning amplifier.
+    Doing Azure is intended to be a learning amplifier. We can also learn
+    cybersecurity by doing cybersecurity, or learn programming by doing programming.
+    And in {currentYear}, we can learn AI by doing AI.
     </>
   ),
   },
   {
-  title: 'Decisions over Options',
+  title: 'Opinionated',
   Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
   description: (
     <>
-    There are so very many options in {currentYear} so we need to make some choices.
-    Asserting Azure as the cloud platform is itself is one such choice. There are many more.
-    Most decisions are explained.
+    There are so very many options in {currentYear} so we need to make some choices. Opinionated choices.
+    Asserting Azure as the cloud platform is itself is one such opinionated choice. There are many more.
+    Most decisions are explained, or attempted at least.
     </>
   ),
   },
   {
-  title: 'Powered by React',
+  title: 'Powered by Azure, but not only Azure',
   Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
   description: (
     <>
-    Extend or customize your website layout by reusing React. Docusaurus can
-    be extended while reusing the same header and footer.
+    The Azure platform might be the center of gravity for much of this site,
+    but scope extends beyond. For example, there is (or will be) some GitHub here too 
+    (this relates to the "opiniated" part).
+    And there's a lot of other stuff too. For example, an opioniated view about setting up
+    email for a small business or open source project (coming soon?).
     </>
   ),
   },
